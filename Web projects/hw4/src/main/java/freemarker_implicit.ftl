@@ -1,0 +1,6 @@
+[#ftl]
+[#-- @implicitly included --]
+[#-- @ftlvariable name="posts" type="java.util.List<ru.itmo.web.hw4.model.Post>" --]
+[#-- @ftlvariable name="realLink" type="java.lang.String" --]
+[#-- @ftlvariable name="users" type="java.util.List<ru.itmo.web.hw4.model.User>" --]
+[#-- @ftlvariable name="user" type="ru.itmo.web.hw4.model.User" --]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Analyzed file: test3.txt
+    </title>
+</head>
+<body>
+<h2>Summary statistics</h2>
+<p>Number of sentences:  30.</p>
+<p>Number of words:  87.</p>
+<p>Number of numbers:  0.</p>
+<p>Number of amounts:  0.</p>
+<p>Number of dates:  0.</p>
+<h3>Sentence statistics</h3>
+<p>Number of sentences:  30 ( 27 unique).</p>
+<p>Minimum sentence: "あれは 　うち　ですか。".</p>
+<p>Maximum sentence: "はい、それも　とけいです。".</p>
+<p>Minimum length of sentence:  9 ("それは　いすです。").</p>
+<p>Maximum length of sentence:  20 ("﻿これは　つくえです
+これは　つくえです。").</p>
+<p>Average length of sentence:  12.4.</p>
+<h3>Word statistics</h3>
+<p>Number of words:  87 ( 26 unique).</p>
+<p>Minimum word: "あれは".</p>
+<p>Maximum word: "ラジオ".</p>
+<p>Minimum length of word:  2 ("うち").</p>
+<p>Maximum length of word:  7 ("ではありません").</p>
+<p>Average length of word:  3.22.</p>
+<h3>Number statistics</h3>
+<p>Number of number:  0 ( 0 unique).</p>
+<p>Minimum number: null.</p>
+<p>Maximum number: null.</p>
+<p>Average number: null.</p>
+<h3>Currency statistics</h3>
+<p>Number of amount:  0 ( 0 unique).</p>
+<p>Minimum amount: null.</p>
+<p>Maximum amount: null.</p>
+<p>Average amount: null.</p>
+<h3>Date statistics</h3>
+<p>Number of date:  0 ( 0 unique).</p>
+<p>Minimum date: null.</p>
+<p>Maximum date: null.</p>
+<p>Average date: null.</p>
+</body>
+</html>

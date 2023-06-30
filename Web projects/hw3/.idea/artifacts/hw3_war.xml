@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hw3:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hw3</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hw3.war">
+      <element id="artifact" artifact-name="hw3:war exploded" />
+    </root>
+  </artifact>
+</component>

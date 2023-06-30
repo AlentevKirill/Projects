@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Analyzed file: test5.txt
+    </title>
+</head>
+<body>
+<h2>Summary statistics</h2>
+<p>Number of sentences:  10.</p>
+<p>Number of words:  134.</p>
+<p>Number of numbers:  18.</p>
+<p>Number of amounts:  0.</p>
+<p>Number of dates:  76.</p>
+<h3>Sentence statistics</h3>
+<p>Number of sentences:  10 ( 10 unique).</p>
+<p>Minimum sentence: "4 июня 2020 г.".</p>
+<p>Maximum sentence: "четверг, 18 июня 2020 г.
+2112
+151421
+08.06.2020
+понедельник, 22 июня 2020 г.
+5 июн. 2020 г.".</p>
+<p>Minimum length of sentence:  14 ("4 июня 2020 г.").</p>
+<p>Maximum length of sentence:  339 ("среда, 17 июня 2020 г.
+21 июня 2020 г.
+5 июня 2020 г.
+17
+пятница, 5 июня 2020 г.
+8
+11 июня 2020 г.
+18
+16 июн. 2020 г.
+6
+09.06.2020
+воскресенье, 14 июня 2020 г.
+14 июн. 2020 г.
+1 июн. 2020 г.
+6 июн. 2020 г.
+23 июн. 2020 г.
+17 июня 2020 г.
+04.06.2020
+9
+20.06.2020
+пятница, 19 июня 2020 г.
+13.06.2077
+17.06.2023
+8 июн. 2021 г.
+16 июня 2021 г.
+03.06.2020
+3 июня 2020 г.").</p>
+<p>Average length of sentence:  125.8.</p>
+<h3>Word statistics</h3>
+<p>Number of words:  134 ( 10 unique).</p>
+<p>Minimum word: "воскресенье".</p>
+<p>Maximum word: "четверг".</p>
+<p>Minimum length of word:  1 ("г").</p>
+<p>Maximum length of word:  11 ("понедельник").</p>
+<p>Average length of word:  3.13.</p>
+<h3>Number statistics</h3>
+<p>Number of number:  18 ( 17 unique).</p>
+<p>Minimum number:  0.</p>
+<p>Maximum number:  151421.</p>
+<p>Average number:  10462.5.</p>
+<h3>Currency statistics</h3>
+<p>Number of amount:  0 ( 0 unique).</p>
+<p>Minimum amount: null.</p>
+<p>Maximum amount: null.</p>
+<p>Average amount: null.</p>
+<h3>Date statistics</h3>
+<p>Number of date:  76 ( 27 unique).</p>
+<p>Minimum date: June 1, 2020.</p>
+<p>Maximum date: June 13, 2077.</p>
+<p>Average date: April 5, 2021.</p>
+</body>
+</html>

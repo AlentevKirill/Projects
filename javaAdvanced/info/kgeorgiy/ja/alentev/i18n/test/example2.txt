@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Analyzed file: test2.txt
+    </title>
+</head>
+<body>
+<h2>Summary statistics</h2>
+<p>Number of sentences:  50.</p>
+<p>Number of words:  394.</p>
+<p>Number of numbers:  0.</p>
+<p>Number of amounts:  0.</p>
+<p>Number of dates:  0.</p>
+<h3>Sentence statistics</h3>
+<p>Number of sentences:  50 ( 49 unique).</p>
+<p>Minimum sentence: "А еще рояли будут?".</p>
+<p>Maximum sentence: "Я попытался встать и еле удержался на ногах.".</p>
+<p>Minimum length of sentence:  5 ("Стоп.").</p>
+<p>Maximum length of sentence:  158 ("- сонно пробормотал я и попытался повернуться на другой бок и тут же ощутил, как в мое тело что-то впилось, чертыхнувшись я повернулся обратно и открыл глаза.").</p>
+<p>Average length of sentence:  50.28.</p>
+<h3>Word statistics</h3>
+<p>Number of words:  394 ( 306 unique).</p>
+<p>Minimum word: "А".</p>
+<p>Maximum word: "Я".</p>
+<p>Minimum length of word:  1 ("А").</p>
+<p>Maximum length of word:  15 ("противоположной").</p>
+<p>Average length of word:  5.28.</p>
+<h3>Number statistics</h3>
+<p>Number of number:  0 ( 0 unique).</p>
+<p>Minimum number: null.</p>
+<p>Maximum number: null.</p>
+<p>Average number: null.</p>
+<h3>Currency statistics</h3>
+<p>Number of amount:  0 ( 0 unique).</p>
+<p>Minimum amount: null.</p>
+<p>Maximum amount: null.</p>
+<p>Average amount: null.</p>
+<h3>Date statistics</h3>
+<p>Number of date:  0 ( 0 unique).</p>
+<p>Minimum date: null.</p>
+<p>Maximum date: null.</p>
+<p>Average date: null.</p>
+</body>
+</html>

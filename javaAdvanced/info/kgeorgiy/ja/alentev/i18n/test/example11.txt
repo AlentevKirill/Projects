@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Анализируемый файл: test1.txt
+    </title>
+</head>
+<body>
+<h2>Сводная статистика</h2>
+<p>Число предложений:  18.</p>
+<p>Число слов:  261.</p>
+<p>Число чисел:  0.</p>
+<p>Число сумм:  0.</p>
+<p>Число дат:  0.</p>
+<h3>Статистика по предложениям</h3>
+<p>Число предложений:  18 ( 18 различных).</p>
+<p>Минимальное предложение: "Advertisements want to persuade us to buy particular products How do they do it?".</p>
+<p>Максимальное предложение: "You see people looking cool and relaxed.".</p>
+<p>Минимальная длина предложения:  36 ("Let's imagine ...You're watching TV.").</p>
+<p>Максимальная длина предложения:  178 ("For example, the highly successful 'Weston Tea Country' advertising for different tea has led to 'DAEWOO Country' for automobile dealers and 'Cadbury Country' for chocolate bars.").</p>
+<p>Средняя длина предложения:  83,78.</p>
+<h3>Статистика по словам</h3>
+<p>Число слов:  261 ( 148 различных).</p>
+<p>Минимальное слово: "a".</p>
+<p>Максимальное слово: "your".</p>
+<p>Минимальная длина слова:  1 ("a").</p>
+<p>Максимальная длина слова:  14 ("Advertisements").</p>
+<p>Средняя длина слова:  4,67.</p>
+<h3>Статистика по числам</h3>
+<p>Число число:  0 ( 0 различных).</p>
+<p>Минимальное число: null.</p>
+<p>Максимальное число: null.</p>
+<p>Среднее число: null.</p>
+<h3>Статистика по суммам денег</h3>
+<p>Число сумма:  0 ( 0 различных).</p>
+<p>Минимальная сумма: null.</p>
+<p>Максимальная сумма: null.</p>
+<p>Средняя сумма: null.</p>
+<h3>Статистика по датам</h3>
+<p>Число дата:  0 ( 0 различных).</p>
+<p>Минимальная дата: null.</p>
+<p>Максимальная дата: null.</p>
+<p>Средняя дата: null.</p>
+</body>
+</html>

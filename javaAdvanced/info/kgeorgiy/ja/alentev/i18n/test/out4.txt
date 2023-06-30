@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Analyzed file: test4.txt
+    </title>
+</head>
+<body>
+<h2>Summary statistics</h2>
+<p>Number of sentences:  14.</p>
+<p>Number of words:  217.</p>
+<p>Number of numbers:  7.</p>
+<p>Number of amounts:  0.</p>
+<p>Number of dates:  2.</p>
+<h3>Sentence statistics</h3>
+<p>Number of sentences:  14 ( 14 unique).</p>
+<p>Minimum sentence: "Внутренняя — не регламентирована, адресована руководству компании, собственникам для принятия управленческих решений.".</p>
+<p>Maximum sentence: "Условия проверяют за предыдущий календарный год.".</p>
+<p>Minimum length of sentence:  48 ("Условия проверяют за предыдущий календарный год.").</p>
+<p>Maximum length of sentence:  272 ("Упрощенная — организация может представлять отчетность по упрощенной схеме, если:
+выполняется одно из условий, предусмотренных п. 1 ч. 1.1 ст. 4 ФЗ от 24.07.2007 № 209-ФЗ;
+годовой доход не более 800 млн рублей;
+среднесписочная численность работников не превышает 100 человек.").</p>
+<p>Average length of sentence:  135.36.</p>
+<h3>Word statistics</h3>
+<p>Number of words:  217 ( 162 unique).</p>
+<p>Minimum word: "адресована".</p>
+<p>Maximum word: "юридическим".</p>
+<p>Minimum length of word:  1 ("в").</p>
+<p>Maximum length of word:  22 ("финансово-промышленная").</p>
+<p>Average length of word:  7.32.</p>
+<h3>Number statistics</h3>
+<p>Number of number:  7 ( 6 unique).</p>
+<p>Minimum number:  1.</p>
+<p>Maximum number:  800.</p>
+<p>Average number:  189.</p>
+<h3>Currency statistics</h3>
+<p>Number of amount:  0 ( 0 unique).</p>
+<p>Minimum amount: null.</p>
+<p>Maximum amount: null.</p>
+<p>Average amount: null.</p>
+<h3>Date statistics</h3>
+<p>Number of date:  2 ( 2 unique).</p>
+<p>Minimum date: July 24, 2007.</p>
+<p>Maximum date: July 27, 2010.</p>
+<p>Average date: January 23, 2009.</p>
+</body>
+</html>

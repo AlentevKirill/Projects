@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Analyzed file: test1.txt
+    </title>
+</head>
+<body>
+<h2>Summary statistics</h2>
+<p>Number of sentences:  18.</p>
+<p>Number of words:  261.</p>
+<p>Number of numbers:  0.</p>
+<p>Number of amounts:  0.</p>
+<p>Number of dates:  0.</p>
+<h3>Sentence statistics</h3>
+<p>Number of sentences:  18 ( 18 unique).</p>
+<p>Minimum sentence: "Advertisements want to persuade us to buy particular products How do they do it?".</p>
+<p>Maximum sentence: "You see people looking cool and relaxed.".</p>
+<p>Minimum length of sentence:  36 ("Let's imagine ...You're watching TV.").</p>
+<p>Maximum length of sentence:  178 ("For example, the highly successful 'Weston Tea Country' advertising for different tea has led to 'DAEWOO Country' for automobile dealers and 'Cadbury Country' for chocolate bars.").</p>
+<p>Average length of sentence:  83.78.</p>
+<h3>Word statistics</h3>
+<p>Number of words:  261 ( 148 unique).</p>
+<p>Minimum word: "a".</p>
+<p>Maximum word: "your".</p>
+<p>Minimum length of word:  1 ("a").</p>
+<p>Maximum length of word:  14 ("Advertisements").</p>
+<p>Average length of word:  4.67.</p>
+<h3>Number statistics</h3>
+<p>Number of number:  0 ( 0 unique).</p>
+<p>Minimum number: null.</p>
+<p>Maximum number: null.</p>
+<p>Average number: null.</p>
+<h3>Currency statistics</h3>
+<p>Number of amount:  0 ( 0 unique).</p>
+<p>Minimum amount: null.</p>
+<p>Maximum amount: null.</p>
+<p>Average amount: null.</p>
+<h3>Date statistics</h3>
+<p>Number of date:  0 ( 0 unique).</p>
+<p>Minimum date: null.</p>
+<p>Maximum date: null.</p>
+<p>Average date: null.</p>
+</body>
+</html>
