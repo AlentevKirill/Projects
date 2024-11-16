@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/homeFragment"
+        android:title="@string/HomeButtonText"
+        android:icon="@drawable/home_icon_icons_com_73532"/>
+    <item
+        android:id="@id/menuFragment"
+        android:title="@string/MenuButtonText"
+        android:icon="@drawable/menu"/>
+    <item
+        android:id="@id/notificationsFragment"
+        android:title="@string/NotificationsButtonText"
+        android:icon="@drawable/icons8___50"/>
+</menu>

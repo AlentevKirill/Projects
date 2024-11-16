@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="HomeButtonText">Home</string>
+    <string name="MenuButtonText">Menu</string>
+    <string name="NotificationsButtonText">Notifications</string>
+    <string name="OpenButtonText">Open Next</string>
+    <string name="DefaultFragmentsCountText">0</string>
+    <string name="fragment">Fragment</string>
+    <string name="test">Fragment %1$d</string>
+</resources>
