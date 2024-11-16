@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowerView">
+        <attr name="budColor" format="color"/>
+        <attr name="stemColor" format="color"/>
+    </declare-styleable>
+
+    <attr name="flowerViewStyle" format="reference"/>
+
+</resources>
