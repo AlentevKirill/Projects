@@ -50,7 +50,7 @@ char* unConv(const int* number, int size, int mark) { // Делает из чи�
     return res;
 }
 
-/*int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     if (argc != 3) {
         puts("Please, enter three arguments\n");
         exit(1); // Вылетаем из программы, если не введено положенное количество аргументов (exit закрывает все процеесы и возвращет код 1)
@@ -180,4 +180,4 @@ char* unConv(const int* number, int size, int mark) { // Делает из чи�
         puts("Error closing the output file\n");
         exit(1);
     }
-}*/
+}
