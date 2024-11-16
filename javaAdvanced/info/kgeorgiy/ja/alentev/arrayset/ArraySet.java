@@ -85,9 +85,7 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
                         arraySet.get(i);
     }
 
-    //Непонятно как реализовать эти методы с учётом того, что нельзя изменять массив
-    // :NOTE: так и нужно, как вы сделали
-    //----------------------------------
+    
     @Override
     public E pollFirst() {
         throw new UnsupportedOperationException();
@@ -133,8 +131,7 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
         return tailSet(fromElement, true);
     }
 
-    // :NOTE: тут не должно быть unchecked cast
-    // :NOTE: Слишком сложно
+    
     @Override
     public NavigableSet<E> subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive) {
         if (compare(fromElement, toElement) > 0) {
@@ -159,19 +156,15 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
             i = compare(arraySet.get(i), fromElement) == 0 ? i + 1 : i;
         }
         if (toInclusive) {
-            // :NOTE: Лишние копирования
             return j == arraySet.size() ?
                     new ArraySet<>(arraySet.subList(i, j), comparator) :
                     compare(arraySet.get(j), toElement) == 0 ?
                             new ArraySet<>(arraySet.subList(i, j + 1), comparator) :
                             new ArraySet<>(arraySet.subList(i, j), comparator);
         }
-        // :NOTE: Лишние копирования
         return new ArraySet<>(arraySet.subList(i, j), comparator);
     }
 
-    // :NOTE: тут не должно быть unchecked cast
-    // :NOTE: Слишком сложно
     @Override
     public NavigableSet<E> headSet(E toElement, boolean inclusive) {
         int i = binSearch(arraySet, toElement, comparator);
@@ -179,17 +172,13 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
             return new ArraySet<>(arraySet, comparator);
         }
         if (compare(arraySet.get(i), toElement) == 0) {
-            // :NOTE: Лишние копирования
             return inclusive ? new ArraySet<>(arraySet.subList(0, i + 1), comparator) :
                     new ArraySet<>(arraySet.subList(0, i), comparator);
         } else {
             return new ArraySet<>(arraySet.subList(0, i), comparator);
         }
-        //return arraySet.length == 0 ? new ArraySet<>() : compare(toElement, arraySet[0]) >= 0 ? subSet(arraySet[0], true, toElement, inclusive) : new ArraySet<>();
     }
 
-    // :NOTE: тут не должно быть unchecked cast
-    // :NOTE: Слишком сложно
     @Override
     public NavigableSet<E> tailSet(E fromElement, boolean inclusive) {
         int i = binSearch(arraySet, fromElement, comparator);
@@ -197,14 +186,12 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
             return new ArraySet<>();
         }
         if (compare(arraySet.get(i), fromElement) == 0) {
-            // :NOTE: Лишние копирования
             return inclusive ?
                     new ArraySet<>(arraySet.subList(i, arraySet.size()), comparator) :
                     new ArraySet<>(arraySet.subList(i + 1, arraySet.size()), comparator);
         } else {
             return new ArraySet<>(arraySet.subList(i, arraySet.size()), comparator);
         }
-        //return arraySet.length == 0 ? new ArraySet<>() : compare(fromElement, arraySet[0]) > 0 ? new ArraySet<>() : subSet(fromElement, inclusive, arraySet[arraySet.length - 1], true);
     }
 
     @Override
@@ -212,7 +199,6 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
         return comparator;
     }
 
-    // :NOTE: тут не должно быть unchecked cast
     @Override
     public E first() {
         if (arraySet.size() == 0) {
@@ -221,7 +207,6 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
         return arraySet.get(0);
     }
 
-    // :NOTE: тут не должно быть unchecked cast
     @Override
     public E last() {
         if (arraySet.size() == 0) {
@@ -242,32 +227,7 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
         return i != arraySet.size() && compare(arraySet.get(i), o) == 0;
     }
 
-    /*public static class ArrayIterator<T> implements Iterator<T> {
-        private T[] array;
-        private int pos = 0;
-
-        public ArrayIterator(ArrayList<T> arrayList) {
-            array = (T[]) arrayList.toArray();
-        }
-
-        public boolean hasNext() {
-            return pos < array.length;
-        }
-
-        public T next() throws NoSuchElementException {
-            if (hasNext())
-                return array[pos++];
-            else
-                throw new NoSuchElementException();
-        }
-
-        // :NOTE: не нужно
-        public void remove() {
-            throw new UnsupportedOperationException();
-        }
-    }*/
-
-    // :NOTE: Почему не Collections.binarySearch / Arrays.binarySearch?
+   
     private int binSearch(ArrayList<E> array, E key, Comparator<? super E> comparator) {
         int i = Collections.binarySearch(array, key, comparator);
         return i < 0 ? Math.abs(i) - 1 : i;
@@ -284,7 +244,6 @@ public class ArraySet<E> extends AbstractSet<E> implements NavigableSet<E> {
         return r;*/
     }
 
-    // :NOTE: этот метод вызывается слишком часто, чтобы позволить себе проверять в нем comparator на null
     @SuppressWarnings("unchecked")
     private int compare(Object k1, Object k2) {
         return isComparatorNull ? ((Comparable<? super E>) k1).compareTo((E) k2)
