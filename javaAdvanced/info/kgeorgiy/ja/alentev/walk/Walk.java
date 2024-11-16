@@ -14,7 +14,7 @@ import java.util.List;
 import static java.nio.file.FileVisitResult.*;
 
 public class Walk {
-    /*private static final String zeroHash = "0000000000000000000000000000000000000000000000000000000000000000";
+    private static final String zeroHash = "0000000000000000000000000000000000000000000000000000000000000000";
     private static String linuxToWin(String fileName){
         String[] name = fileName.split("/");
         return String.join(File.separator, name);
@@ -117,5 +117,5 @@ public class Walk {
         }catch (Exception e5){
             System.out.println(e5.toString());
         }
-    }*/
+    }
 }
