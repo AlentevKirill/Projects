@@ -1,1 +1,0 @@
-@call java --class-path .. rmi.Client %*
